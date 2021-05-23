@@ -97,6 +97,7 @@ var toolbar = document.getElementById("svg8");
           document.getElementById("svg8").style.fill = "#ffdede";
           light=true;
           Android.setStatusBarColor('#FFFFFFFF');
+          Android.torchEnabled(true);
         }
         else
         {
@@ -104,6 +105,7 @@ var toolbar = document.getElementById("svg8");
           document.getElementById("svg8").style.fill = "#721313";   
           light=false;
           Android.setStatusBarColor('#1D1D20FF');
+          Android.torchEnabled(false);
         }
     };
 
