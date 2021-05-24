@@ -87,7 +87,7 @@
     var light = false;
 
     window.addEventListener('DOMContentLoaded', (event) => {
-    Android.setStatusBarColor('#FF1D1D20',true);
+   // Android.setStatusBarColor('#FF1D1D20',true);
 });
 
 var toolbar = document.getElementById("svg8");
@@ -100,7 +100,7 @@ var toolbar = document.getElementById("svg8");
           document.body.style.backgroundColor = "white";
           document.getElementById("svg8").style.fill = "#ffffff";
           light=true;
-          Android.setStatusBarColor('#FFFFFFFF',false);
+         // Android.setStatusBarColor('#FFFFFFFF',false);
           Android.torchEnable(true);
         }
         else
@@ -108,7 +108,7 @@ var toolbar = document.getElementById("svg8");
           document.body.style.backgroundColor = "#1d1d20";
           document.getElementById("svg8").style.fill = "#721313";   
           light=false;
-          Android.setStatusBarColor('#FFF2622A',true);
+          //Android.setStatusBarColor('#FFF2622A',true);
           Android.torchEnable(false);
         }
     };
